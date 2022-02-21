@@ -1,0 +1,69 @@
+body {
+    font-family: "Times New Roman" sans-serif;
+    font-weight: 300;
+}
+
+#header {
+    border-bottom: 1px solid #4a4a4a;
+    text-align: center;
+    position: relative;
+    background-color: red;
+    color: #fafafa;
+}
+
+#contents {
+    float: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#contents a {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#contents a:hover {
+    background-color: white;
+    color: black;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#html {
+    background-color: orange;
+    color: #fafafa;
+    width: 33%;
+    clear: both;
+    position: absolute;
+    float: left;
+}
+
+#css {
+    background-color: blue;
+    color: #fafafa;
+    width: 33%;
+    clear: both;
+    position: relative;
+    float: right;
+}
+
+#html a, #css a {
+    color: inherit;
+}
+
+#html a:hover {
+    color: cyan;
+}
+
+#css a:hover {
+    color: red;
+}
