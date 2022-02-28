@@ -3,7 +3,7 @@ body {
     font-weight: 300;
 }
 
-#header {
+header {
     border-bottom: 1px solid #4a4a4a;
     text-align: center;
     position: relative;
@@ -11,7 +11,7 @@ body {
     color: #fafafa;
 }
 
-#contents {
+.contents {
     float: right;
     letter-spacing: 2px;
     text-transform: uppercase;
